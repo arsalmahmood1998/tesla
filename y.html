@@ -45,7 +45,11 @@
         <div id="rightmenu"> 
           <ul>
             <li>
-              <a  class="nav-link" href="#">Button</a>
+              <a class="nav-link" onclick="myFunction(this)" href="#">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </a>
             </li>
             <li >
               <a class="nav-link" href="#">SHOP</a>
@@ -58,7 +62,7 @@
     </nav>
 </header>
   <article id="image21">
-      <h1>Model X</h1> 
+      <h1>Model Y</h1> 
      
   </article>
 
@@ -66,21 +70,21 @@
     <div class="row">
       <div class="col-md-4">
      </div>
-     <div class="col-md-8" id="image18">
+     <div class="col-md-8" id="image22">
       </div>      
   </div>
 
-  <article id="image19">
+  <article id="image23">
         
   </article>
 
-  <article id="image20">
+  <article id="image24">
       
   </article>
   <article id="">
          
   </article>
-  <article id="image6">
+  <article id="image25">
       
   </article>
 
@@ -94,6 +98,12 @@
     <a href="#" class="btn btn-default" role="buttom">Forums</a>
     <a href="#" class="btn btn-default" role="buttom">Locations</a>
   </footer>
+
+      <script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
   
     <!-- Optional JavaScript; choose one of the two! -->
 

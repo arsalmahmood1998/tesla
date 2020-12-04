@@ -45,7 +45,11 @@
         <div id="rightmenu"> 
           <ul>
             <li>
-              <a  class="nav-link" href="#">Button</a>
+              <a class="nav-link" onclick="myFunction(this)" href="#">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </a>
             </li>
             <li >
               <a class="nav-link" href="#">SHOP</a>
@@ -93,8 +97,14 @@
     <a href="#" class="btn btn-default" role="buttom">News</a>
     <a href="#" class="btn btn-default" role="buttom">Forums</a>
     <a href="#" class="btn btn-default" role="buttom">Locations</a>
-  </footer>
-  
+    </footer>
+
+
+        <script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

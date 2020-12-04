@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Electric Cars, Solar & Energy Clean | Tesla<</title>
     <link rel="icon" href="images/logo.png" type="image/icon type">
@@ -45,7 +45,11 @@
         <div id="rightmenu"> 
           <ul>
             <li>
-              <a  class="nav-link" href="#">Button</a>
+             <a class="nav-link" onclick="myFunction(this)" href="#">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </a>
             </li>
             <li >
               <a class="nav-link" href="#">SHOP</a>
@@ -82,7 +86,7 @@
       <div class="center">
         <div class="transbutton" id="black">Cutomer Order</div>
         <div class="transbutton" id="grey">Existing Inventory</div> 
-      </div>      
+      </div>   
   </article>
 
   <article id="image4">
@@ -128,6 +132,14 @@
     <a href="#" class="btn btn-default" role="buttom">Locations</a>
   </footer>
   
+
+
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

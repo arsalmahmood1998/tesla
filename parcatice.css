@@ -1,0 +1,35 @@
+body {
+  background:black;
+}
+
+.speedometer {
+  height:100%;
+}
+
+.speedometer {
+	margin-top: 325px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+
+  width: calc( 75vh * 327 / 205.4);
+  height:20vh;
+}
+
+path {
+  fill: black;
+}
+.needle {
+  position:absolute;
+  height:10vh;
+  bottom:10vh;
+  left:calc( 51% - 4.5vh );
+  width:.3vh;
+  background:black;
+  transform-origin:bottom center;
+  transform:rotate(0deg);
+  margin-left: 10px;
+}
