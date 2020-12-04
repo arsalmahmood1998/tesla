@@ -317,8 +317,9 @@ div p{
 }
 
 .speedometer {
+  margin-top: 10px;
   height:100%;
-  width:110%;
+  width:80%;
   margin-top: 300px;
   display:flex;
   align-items: center;
@@ -339,9 +340,9 @@ path {
 }
 .needle {
   position:absolute;
-  height:9vh;
+  height:6vh;
   bottom:10vh;
-  width:.3vh;
+  width:.2vh;
   background:black;
   transform-origin:bottom left;
   transform:rotate(0deg);
