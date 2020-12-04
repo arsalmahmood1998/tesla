@@ -351,23 +351,29 @@ path {
   margin-top: 300px;
   border-left: 2px solid black;
   height: 100px;
-  margin-left: 50px;
+  margin-left: 15px;
 }
 
 .center div{
   float:left;
 }
 
+
 #h2{
   margin-top: 325px;
   color: black;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 p{
   color: black;
   margin-top: 0 ;
 }
 
+/*
+#black{
+  margin-top: 325px;
+}
+*/
 #footer{
   background:#ffffff;
   color: #333333;
