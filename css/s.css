@@ -340,7 +340,7 @@ path {
 }
 .needle {
   position:absolute;
-  height:6vh;
+  height:5vh;
   bottom:10vh;
   width:.2vh;
   background:black;
@@ -381,6 +381,14 @@ span{
   color: white;
   background-color: black;
   text-align: center;
+}
+
+h4{
+  color: black;
+}
+
+#black > a{
+  color : white;
 }
 
 #footer{
